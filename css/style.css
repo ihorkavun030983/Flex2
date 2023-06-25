@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inhet;
+	vertical-align: top;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	background: #D8D8D6;
+	line-height: 30px;
+	font-size: 18px;
+	color: #161616;
+
+}
+.wrapper{
+	background: #81A36B;
+	
+}
+
+.header{
+    margin: 0 auto;
+	max-width: 1110px;
+	padding: 25px 0;
+}
+.header a{
+	color: #161616;
+	text-decoration: none;
+}
+.conteiner{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+.header-logo{
+	text-transform: uppercase;
+	font-size: 36px;
+}
+.header-list{
+	display: flex;
+	gap: 90px;
+	
+}
+.container1{
+	margin: 0 auto;
+	max-width: 1110px;
+}
+.section{
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	
+}
+.content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 1 1 48%;
+	gap: 30px;
+}
+.text {
+	margin-top: 60px;
+}
+.flexbutton a{
+	width: 190px;
+	padding: 20px 16px;
+	border: 1px solid #81A36B;
+	text-decoration: none;
+	color: #161616;
+	text-align: center;
+}
+.button {
+	width: 190px;
+	background:#81A36B;
+	font-size: 18px;
+	color: #161616;
+}
+
+.button a{
+	color: #161616;
+	text-decoration: none;
+}
+.flexbutton{
+	display: flex;
+	gap: 70px;
+}
+.section1{
+	margin: 0 auto;
+	max-width: 540px;
+	padding: 120px 0;
+}
+h2{
+	font-size: 32px;
+	text-align: center;
+	padding: 30px;
+}
+.section1 p{
+	padding: 30px;
+
+}
+.section2{
+	background: #81A36B;
+}
+.layercont{
+	margin: 0 auto ;
+	width: 1110px;
+}
+.layer{
+	display: flex;
+	justify-content: space-between;
+	padding: 80px 0;
+	text-align: center;
+}
+li p{
+	padding: 20px 0;
+}
+h3{
+	text-align: center;
+	font-size: 32px;
+}
+.section3{
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	padding: 60px 0;
+}
+.textsec3{
+	padding: 60px 0;
+}
+.cards{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.card{
+	width: 350px;
+	height: 510px;
+	background: #81A36B;
+	text-align: center;
+	padding: 15px;
+}
+.section4 h3{
+	padding: 80px;
+}
+.card p{
+	padding: 20px;
+}
+.footer{
+	background: #81A36B;
+	margin-top: 120px;
+}
+.contact{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	font-size: 18px;
+}
+.contact li:first-child{
+	font-size: 24px;
+}
+.footer-contacts{
+	display: flex;
+	justify-content: space-between;
+	padding: 60px 0;
+}
+.social{
+	text-align: center;
+}
+.insta h3{
+	font-size: 24px;
+}
