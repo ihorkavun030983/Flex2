@@ -18,7 +18,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inhet;
+	font: inherit;
 	vertical-align: top;
 }
 /* HTML5 display-role reset for older browsers */
@@ -53,14 +53,14 @@ body{
 }
 .wrapper{
 	background: #81A36B;
-	
+	padding: 25px 0;
 }
 
 .header{
     margin: 0 auto;
 	max-width: 1110px;
-	padding: 25px 0;
 }
+
 .header a{
 	color: #161616;
 	text-decoration: none;
@@ -72,6 +72,7 @@ body{
 	
 }
 .header-logo{
+	align-self: flex-start;
 	text-transform: uppercase;
 	font-size: 36px;
 }
@@ -86,31 +87,33 @@ body{
 }
 .section{
 	display: flex;
-	justify-content: center;
 	gap: 30px;
+	align-items: center;
 	
 }
 .content{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	flex: 1 1 48%;
-	gap: 30px;
+}
+.content img{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
 }
 .text {
 	margin-top: 60px;
 }
 .flexbutton a{
 	width: 190px;
-	padding: 20px 16px;
+	padding: 11px 16px;
 	border: 1px solid #81A36B;
 	text-decoration: none;
 	color: #161616;
 	text-align: center;
 }
 .button {
-	width: 190px;
+	border: none;
 	background:#81A36B;
+	padding: 10px 20px;
 	font-size: 18px;
 	color: #161616;
 }
@@ -121,6 +124,7 @@ body{
 }
 .flexbutton{
 	display: flex;
+	margin: 50px 0 0;
 	gap: 70px;
 }
 .section1{
@@ -131,14 +135,16 @@ body{
 h2{
 	font-size: 32px;
 	text-align: center;
-	padding: 30px;
+	margin: 0 0 30px;
 }
 .section1 p{
 	padding: 30px;
+	text-align: center;
 
 }
 .section2{
 	background: #81A36B;
+	padding: 80px 0;
 }
 .layercont{
 	margin: 0 auto ;
@@ -147,11 +153,10 @@ h2{
 .layer{
 	display: flex;
 	justify-content: space-between;
-	padding: 80px 0;
 	text-align: center;
 }
 li p{
-	padding: 20px 0;
+	margin: 20px 0 0;
 }
 h3{
 	text-align: center;
@@ -160,6 +165,7 @@ h3{
 .section3{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	gap: 30px;
 	padding: 60px 0;
 }
@@ -173,38 +179,56 @@ h3{
 }
 .card{
 	width: 350px;
-	height: 510px;
 	background: #81A36B;
 	text-align: center;
 	padding: 15px;
 }
+
 .section4 h3{
 	padding: 80px;
 }
 .card p{
 	padding: 20px;
 }
+.card img{
+	width: 100%; 
+	height: auto; 
+	object-fit: cover;
+}
 .footer{
 	background: #81A36B;
-	margin-top: 120px;
+	
 }
 .contact{
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
 	font-size: 18px;
+}
+
+.contact li{
+	margin: 20px 0 0;
 }
 .contact li:first-child{
 	font-size: 24px;
+	margin: 0;
 }
 .footer-contacts{
 	display: flex;
 	justify-content: space-between;
 	padding: 60px 0;
 }
-.social{
-	text-align: center;
+
+.social a{
+	display: inline-block;
+}
+.social img{
+	margin: 5px;
 }
 .insta h3{
 	font-size: 24px;
+}
+.sect{
+	margin: 0 0 120px;
+}
+.data{
+	text-align: center;
+	padding: 30px 0;
 }
